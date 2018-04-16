@@ -1,0 +1,13 @@
+{
+  "presets": [
+    "react",
+    "env",
+    "es2015"
+  ],
+  "plugins": [
+    ["module-resolver", {
+      "root": ["./src"]
+    }],
+    "transform-decorators-legacy"
+  ]
+}
